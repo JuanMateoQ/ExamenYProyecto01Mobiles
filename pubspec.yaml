@@ -30,10 +30,19 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  http: ^1.2.0              # Para el Módulo 1 (Red)
+  sqflite: ^2.3.0           # Para el Módulo 2 (SQL)
+  path: ^1.9.0              # Auxiliar para sqflite
+  hive: ^2.2.3              # Para el Módulo 2 (NoSQL)
+  hive_flutter: ^1.1.0      # Para inicializar Hive
+  shared_preferences: ^2.2.2 # Para el Módulo 3 (Clave-Valor)
+  flutter_secure_storage: ^9.0.0 # Para el Módulo 3 (Encriptado)
+  provider: ^6.1.1          # Gestor de estado
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+
 
 dev_dependencies:
   flutter_test:
@@ -87,3 +96,4 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
